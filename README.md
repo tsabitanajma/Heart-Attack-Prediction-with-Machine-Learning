@@ -1,6 +1,6 @@
 # Heart-Attack-Prediction-with-Machine-Learning
 
-##About Dataset
+## About Dataset
 This dataset describes the contents of the heart-disease directory. It contains 76 attributes, but all published experiments
 refer to using a subset of 14 of them. The "goal" field refers to the presence of heart disease
 in the patient. It is integer valued from 0 (no presence) to 4. (Resource: https://www.kaggle.com/datasets/imnikhilanand/heart-attack-prediction).
@@ -22,7 +22,7 @@ hospital)
 *   thal : 3 = normal; 6 = fixed defect; 7 = reversable defect
 *   num : diagnosis of heart disease (0 = <50% diameter narrowing; 1 = >50% diameter narrowing)
 
-##Conclusion
+## Conclusion
 1. The dataset contains missing values of less than 75% in the columns "trestbps", "restecg", "exang", "fbs", "chol", and "slope". These were handled using KNN Imputer. Columns "ca" and "thal" had more than 75% missing values and were removed to avoid irrelevant imputation results.
 
 2. The dataset contains outliers in the columns "trestbps", "chol", and "oldpeak". These were handled using winsorizing.
